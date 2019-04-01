@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>de-identify</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar text-light">
+        <span class="navbar-brand mb-0 h1">De-Identify</span>
+      </nav>
+      <div style="text-align:center">
+        <img width="300" alt="De-ID"
+          src="./assets/logo.png">
+        <h2>Please Upload an Image to de-identify it</h2><br>
+        <input type="file" onchange="previewFile()"><br><br>
+        <img id="img-upload" src="" height="200" alt="Image preview..."><br><br>
+        <p id="loading" class="hide-loading">Loading...</p>
+        <button class="anon-btn btn btn-primary" onclick="fetchImg()">Anonymize</button>
+
+      </div>
+    <script src="main.js"></script>
+</body>
+</html>
+

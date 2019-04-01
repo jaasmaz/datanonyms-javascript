@@ -1,0 +1,12 @@
+.navbar{
+    margin-bottom: 2em;
+    background-color: #0054a6;
+}
+.anon-btn{
+    margin-top: 10px;
+    display: none !important;
+}
+.hide-loading{
+    display: none !important;
+}
+
